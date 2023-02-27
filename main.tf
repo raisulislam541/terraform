@@ -47,5 +47,8 @@ resource "local_file" "pet" {
   lifecycle {
     create_before_destroy = true
   }
+  lifecycle {
+    prevent_destroy = true
+  }
 }
 
