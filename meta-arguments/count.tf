@@ -9,3 +9,5 @@ resource "local_file" "pet" {
 output "pets" {
   value = "local_file.pet"
 }
+
+
